@@ -87,3 +87,16 @@ public class TestActions {
 
 
 }
+    public static void testGooglePage(WebDriver driver, String url) throws InterruptedException {
+        driver.get(url);
+
+        WebElement element = driver.findElement(By.xpath("//input[@title='Search']"));
+        Actions actions = new Actions(driver);
+
+        actions.sendKeys("facebook.com")
+                .build()
+                .perform();
+        Thread.sleep(4000);
+        driver.quit();
+}
+    
