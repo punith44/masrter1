@@ -1,0 +1,9 @@
+com\test\Pages\MyInfoPage.class
+com\test\Utils\CommonFunctions.class
+com\test\BaseClass\TestBase.class
+com\test\RunnerClass\TestRunner.class
+com\test\glueCode\GlueCode.class
+com\test\Pages\LoginPage.class
+com\test\Utils\ExcelFileUtils.class
+com\test\Pages\AdminPage.class
+com\test\Pages\PIMPage.class
