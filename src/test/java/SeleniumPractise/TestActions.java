@@ -69,7 +69,7 @@ public class TestActions {
         actions.sendKeys("facebook.com")
                 .build()
                 .perform();
-        Thread.sleep(3000);
+        Thread.sleep(4000);
         driver.quit();
     }
 
@@ -82,7 +82,7 @@ public class TestActions {
         actions.sendKeys("facebook.com")
                 .build()
                 .perform();
-        Thread.sleep(3000);
+        Thread.sleep(4000);
         driver.quit();
 
 
